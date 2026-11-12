@@ -53,7 +53,8 @@ df_filtre = df[
 ]
 
 
-# Liste des mois
+
+# Liste des mois dans le bon ordre
 mois = [
     "Tous les mois",
     "Jan", "Feb", "Mar", "Apr",
@@ -61,17 +62,33 @@ mois = [
     "Sep", "Oct", "Nov", "Dec"
 ]
 
-# Menu déroulant
+# Correspondance avec les mois du CSV
+correspondance_mois = {
+    "Jan": "Jan",
+    "Feb": "Feb",
+    "Mar": "Mar",
+    "Apr": "Apr",
+    "May": "May",
+    "Jun": "Jun",
+    "Jul": "Jul",
+    "Aug": "Aug",
+    "Sep": "Sep",
+    "Oct": "Oct",
+    "Nov": "Nov",
+    "Dec": "Dec"
+}
+
 mois_choisi = st.selectbox(
     "📅 Sélectionnez un mois :",
     mois
 )
 
-# Filtrer selon le mois sélectionné
+# Filtrer les données
 if mois_choisi != "Tous les mois":
     df_filtre = df_filtre[
-        df_filtre["month"] == mois_choisi
+        df_filtre["month"].astype(str).str[:3] == mois_choisi
     ]
+
 
 
 # KPI dynamique
@@ -123,3 +140,10 @@ if afficher_heatmap:
     # Afficher dans Streamlit
     st.pyplot(fig)
     plt.close(fig)
+
+if afficher_heatmap:
+    if df_filtre.empty:
+        st.warning("Aucune donnée disponible pour cette sélection.")
+    else:
+        # Ton code existant de création de heatmap
+        ...
