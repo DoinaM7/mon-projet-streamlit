@@ -1,10 +1,7 @@
-# Environnement virtuel Python
 venv/
 .venv/
-
-# Configuration VS Code
 .vscode/
-
-# Cache Python
 __pycache__/
 *.pyc
+accounts.csv
+.streamlit/secrets.toml
