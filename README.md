@@ -39,7 +39,7 @@ mon-projet-streamlit/
 └── .gitignore
 ```
 
-Le fichier `accounts.csv` est utilisé localement pour l'exercice d'authentification. Il est exclu de GitHub tant qu'il contient des mots de passe en clair.
+Le fichier `accounts.csv` contient les informations nécessaires à l'authentification des utilisateurs de l'application Streamlit.
 
 ## 💻 Installation du projet en local
 
