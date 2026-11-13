@@ -21,7 +21,6 @@ Le projet comprend plusieurs applications :
 - Seaborn
 - Plotly
 - streamlit-option-menu
-- bcrypt
 - Git et GitHub
 - Streamlit Community Cloud
 
@@ -117,8 +116,6 @@ Cette dernière application nécessite une configuration d'authentification supp
 
 Le projet utilise un fichier `.gitignore` afin d'exclure les fichiers sensibles et l'environnement virtuel.
 
-Pour le déploiement public de l'application sécurisée, les identifiants doivent être configurés dans Streamlit Secrets, avec des mots de passe hachés.
-
 ## ⚠️ Difficultés rencontrées
 
 Plusieurs difficultés techniques ont été rencontrées pendant le développement :
@@ -142,7 +139,7 @@ https://doinam7.github.io/
 **Applications Streamlit Cloud :**  
 https://dashboard-aerien-doina.streamlit.app/
 https://app-data-doina.streamlit.app/
-
+https://app-taxi-doina.streamlit.app/
 ## 👩‍💻 Auteur
 
 Doïna — Data Analyst en formation
