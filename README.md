@@ -140,7 +140,8 @@ https://github.com/DoinaM7/mon-projet-streamlit
 https://doinam7.github.io/
 
 **Applications Streamlit Cloud :**  
-Liens publics à ajouter après validation des déploiements.
+https://dashboard-aerien-doina.streamlit.app/
+https://app-data-doina.streamlit.app/
 
 ## 👩‍💻 Auteur
 
