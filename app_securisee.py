@@ -171,9 +171,9 @@ else:
         st.write("Découvrez notre galerie d'animaux.")
 
         images = [
-            "https://static.streamlit.io/examples/cat.jpg",
-            "https://static.streamlit.io/examples/dog.jpg",
-            "https://static.streamlit.io/examples/owl.jpg"
+            "https://i.abcnewsfe.com/a/af4cb1b0-2d11-4320-a798-215b37cf44c3/giant-panda-1-ht-bb-240529_1716990354628_hpMain.jpg",
+            "https://nationalzoo.si.edu/sites/default/files/styles/max_1300x1300/public/2024-05/20240516-817A0314-05RP.jpg?itok=GbwPA2SV",
+            "https://animalfactguide.com/wp-content/uploads/2024/05/baoli2.jpg"
         ]
 
         cols = st.columns(3)
